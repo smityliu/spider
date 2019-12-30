@@ -1,2 +1,0 @@
-# spider
-spider for twitter
