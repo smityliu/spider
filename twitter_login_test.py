@@ -23,8 +23,8 @@ def spider_follower(id_all,name_all,turn):
 	'Sec-Fetch-Mode': 'cors',
 	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
 	#建议每次用脚本之前，都去浏览器再重新更新一下cookie，以防过期，获取过程很简单，直接看发包就可以了，然后整个脱下来。
-	'Cookie':'_ga=GA1.2.175021092.1575685463; kdt=lrXc3mPTTmt2DGsT6bCTvOV9g4ALcrWad2uxcrL8; remember_checked_on=1; csrf_same_site_set=1; csrf_same_site=1; personalization_id="v1_l2QIehqV66tm00Fqv1KWjg=="; guest_id=v1%3A157591105501143280; _twitter_sess=BAh7CiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCFTKcjNvAToMY3NyZl9p%250AZCIlODA0NDc2ZjQ2NjFjNjIyMjIxN2E2ODYyNGFlZDIwMzg6B2lkIiUzMzA2%250AZjFlNmRjYWJlZDY5N2Q4NmExZTVjMjcwNjgzYjoJdXNlcmwrCQBQ1M2lZrIQ--88ffc80488d04b385eb14dfb4d99fd3a73afc5cd; ct0=97e791a574a3a81468622aefcee61068; _gid=GA1.2.1844811109.1577116163; ads_prefs="HBERAAA="; twid=u%3D1203136912770224128; auth_token=ee2e68cb2272ee1e86318690e5874212cafea487; rweb_optin=side_no_out',
-	'x-csrf-token':'97e791a574a3a81468622aefcee61068'}
+	'Cookie':'填写你自己的Cookie，查询authorization的时候就有',
+	'x-csrf-token':'填入cookie里的ct0字段'}
 	position=0
 	id_next_all=[]
 	follower_name_all=[]
