@@ -124,11 +124,11 @@ if __name__ == '__main__':
 	'Origin': 'https://passport.weibo.cn',
 	'Connection': 'close',
 	'Referer': 'https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2F&backTitle=%CE%A2%B2%A9&vt=',
-	'Cookie': '_T_WM=8d0aa03340d64b0e619bac816df51e1c; login=d434df472bb5ab59af1d4577b2b5d916'
+	'Cookie': '填写你自己的cookie'
 	}
 	data={
-		     'username': '17538142787',
-	            'password': 'Zzh331759019',
+		     'username': '填写你自己的用户名',
+	            'password': '填写你自己的密码',
 	            'savestate': '1',
 	            'r': '',
 	            'ec': '0',
