@@ -11,7 +11,7 @@ python3 twitter_userid_sucess.py "你想要搜索的内容"
 
 example python3 twitter_userid_sucess.py smity
 
-### tweets_text_success.py
+## tweets_text_success.py
 成功后会在同目录下生成一个text.txt文件，数据量太大可以提前用ctrl + c 结束脚本运行，一样会有数据
 
 使用方法：
@@ -19,7 +19,7 @@ python3 tweets_text_success.py "用户id"
 
 example python3 tweets_text_success.py smityliu
 
-### lda.py
+## lda.py
 会自动训练出n_topics个主题，依照使用者需求规定主题数量和关键词数量，训练成功后弹出可视化的浏览器界面
 
 使用方法：
@@ -27,7 +27,7 @@ python3 lda.py
 
 example python3 lda.py
 
-### weibo_indentity.py
+## weibo_indentity.py
 使用方法：
 python3 weibo_indentity.py "用户id"
 
