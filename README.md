@@ -3,6 +3,21 @@
 
 使用前，请在脚本中修改本机代理端口，或者开全局模式后，把requests中的proxies去掉
 
+使用模拟登录的时候，麻烦自己截取一下流量包填入字段，这里我把自己的信息都删除了，各位自己截取
+
+## weibo_login.py（微博模拟登录）
+
+使用的时候，现在代码里面写入你的用户名密码，还有在header里面补上你的cookie，这个很简单，只要看了weibo.cn，截取一下流量包就全都有了
+
+使用方法：
+python3 weibo_login.py
+
+## twitter_login_test.py（推特模拟登录）
+使用的时候，现在代码里面写入你的用户名密码，或者你不写也可以，不影响，在header里面补上你的authorization和cookie，x-scrftoken就是cookie里的ct0字段，截取一下流量包就全都有了
+
+使用方法：
+python3 twitter_login_test.py
+
 ## twitter_userid_sucess.py：
 显示两列，一列是相关用户昵称，一列是对应用户昵称的用户id
 
